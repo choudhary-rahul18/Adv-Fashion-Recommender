@@ -1,7 +1,8 @@
 ### 👗 Advanced Multimodal Fashion Recommender
 This project is a cutting-edge fashion search engine that leverages Multimodal Embeddings, Generative AI (LLMs), and Vector Databases to provide highly accurate, budget-aware product recommendations. By integrating visual features with semantic intent and price constraints, the system handles complex natural language queries like "Elegant teal Anarkali for a wedding under 4000" with sub-second precision.
 
-```🚀 System Architecture & Procedure
+## 🚀 System Architecture & Procedure
+```
 The recommendation engine follows a sophisticated four-stage pipeline to bridge the gap between human language and visual fashion attributes.
 
 1. Data Engineering & Semantic Fusion
@@ -48,7 +49,7 @@ Frontend: Streamlit (Responsive UI)
 
 Inference: PyTorch (MPS/CUDA support)
 ```
-
+```
 📦 Project Structure
 Plaintext
 ├── data_analysis.ipynb      # EDA, feature engineering, and price scaling logic
@@ -59,8 +60,9 @@ Plaintext
 └── requirements.txt          # Project dependencies
 ⚙️ Setup & Installation
 Clone & Environment:
-
+```
 Bash
+```
 git clone https://github.com/your-username/fashion-recommender.git
 cd fashion-recommender
 python -m venv .venv
@@ -69,7 +71,7 @@ pip install -r requirements.txt
 API Key: Create a .env file and add: GEMINI_API_KEY=your_google_ai_key.
 
 Run Ingestion: Execute the code in embeddings.ipynb to generate the fashion_vector_db folder.
-
+```
 Launch App:
 
 Bash
