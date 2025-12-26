@@ -35,7 +35,6 @@ ChromaDB: All 14,000+ master vectors are stored in a persistent ChromaDB collect
 
 Semantic Search: The system uses Cosine Similarity to retrieve the top 6 matches in milliseconds, even on local hardware like a MacBook Air.
 ```
-```
 ## 🛠️ Tech Stack
 Multimodal AI: OpenAI CLIP (ViT-B/32)
 
@@ -58,6 +57,7 @@ Plaintext
 ├── price_scaler.pkl          # Persisted MinMaxScaler for search alignment
 ├── .env                      # API Credentials (ignored by git)
 └── requirements.txt          # Project dependencies
+```
 ```
 ## ⚙️ Setup & Installation
 Clone & Environment:
