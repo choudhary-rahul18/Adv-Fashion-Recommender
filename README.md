@@ -36,6 +36,7 @@ ChromaDB: All 14,000+ master vectors are stored in a persistent ChromaDB collect
 Semantic Search: The system uses Cosine Similarity to retrieve the top 6 matches in milliseconds, even on local hardware like a MacBook Air.
 ```
 ## 🛠️ Tech Stack
+```
 Multimodal AI: OpenAI CLIP (ViT-B/32)
 
 Generative AI: Google Gemini 2.0 Flash (via google-genai SDK)
@@ -48,7 +49,7 @@ Frontend: Streamlit (Responsive UI)
 
 Inference: PyTorch (MPS/CUDA support)
 ```
-```
+
 ## 📦 Project Structure
 Plaintext
 ├── data_analysis.ipynb      # EDA, feature engineering, and price scaling logic
@@ -57,9 +58,10 @@ Plaintext
 ├── price_scaler.pkl          # Persisted MinMaxScaler for search alignment
 ├── .env                      # API Credentials (ignored by git)
 └── requirements.txt          # Project dependencies
-```
-```
+
+
 ## ⚙️ Setup & Installation
+```
 Clone & Environment:
 Bash
 git clone https://github.com/your-username/fashion-recommender.git
@@ -71,9 +73,9 @@ API Key: Create a .env file and add: GEMINI_API_KEY=your_google_ai_key.
 
 Run Ingestion: Execute the code in embeddings.ipynb to generate the fashion_vector_db folder.
 ```
-```
-## Launch App:
 
+## Launch App:
+```
 Bash
 python -m streamlit run app.py
 💡 Key Challenges Solved
