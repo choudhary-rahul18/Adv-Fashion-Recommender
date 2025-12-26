@@ -1,4 +1,4 @@
-### 👗 Advanced Multimodal Fashion Recommender
+# 👗 Advanced Multimodal Fashion Recommender
 This project is a cutting-edge fashion search engine that leverages Multimodal Embeddings, Generative AI (LLMs), and Vector Databases to provide highly accurate, budget-aware product recommendations. By integrating visual features with semantic intent and price constraints, the system handles complex natural language queries like "Elegant teal Anarkali for a wedding under 4000" with sub-second precision.
 
 ## 🚀 System Architecture & Procedure
@@ -36,7 +36,7 @@ ChromaDB: All 14,000+ master vectors are stored in a persistent ChromaDB collect
 Semantic Search: The system uses Cosine Similarity to retrieve the top 6 matches in milliseconds, even on local hardware like a MacBook Air.
 ```
 ```
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Multimodal AI: OpenAI CLIP (ViT-B/32)
 
 Generative AI: Google Gemini 2.0 Flash (via google-genai SDK)
@@ -50,7 +50,7 @@ Frontend: Streamlit (Responsive UI)
 Inference: PyTorch (MPS/CUDA support)
 ```
 ```
-📦 Project Structure
+## 📦 Project Structure
 Plaintext
 ├── data_analysis.ipynb      # EDA, feature engineering, and price scaling logic
 ├── embeddings.ipynb          # CLIP vector generation & ChromaDB ingestion
@@ -58,11 +58,10 @@ Plaintext
 ├── price_scaler.pkl          # Persisted MinMaxScaler for search alignment
 ├── .env                      # API Credentials (ignored by git)
 └── requirements.txt          # Project dependencies
-⚙️ Setup & Installation
+```
+## ⚙️ Setup & Installation
 Clone & Environment:
-```
 Bash
-```
 git clone https://github.com/your-username/fashion-recommender.git
 cd fashion-recommender
 python -m venv .venv
@@ -72,7 +71,8 @@ API Key: Create a .env file and add: GEMINI_API_KEY=your_google_ai_key.
 
 Run Ingestion: Execute the code in embeddings.ipynb to generate the fashion_vector_db folder.
 ```
-Launch App:
+```
+## Launch App:
 
 Bash
 python -m streamlit run app.py
@@ -82,3 +82,4 @@ Context Window Limits: Managed CLIP’s 77-token limit by implementing truncatio
 Attribute Sparsity: Solved the issue of missing descriptions by engineering a "Semantic Proxy" string from available product attributes.
 
 Scale: Optimized the ingestion process into batches of 1000 to handle over 14,000 items efficiently.
+```
