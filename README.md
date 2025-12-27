@@ -1,7 +1,7 @@
 # 👗 Advanced Multimodal Fashion Recommender
 This project is a cutting-edge fashion search engine that leverages Multimodal Embeddings, Generative AI (LLMs), and Vector Databases to provide highly accurate, budget-aware product recommendations. By integrating visual features with semantic intent and price constraints, the system handles complex natural language queries like "Elegant teal Anarkali for a wedding under 4000" with sub-second precision.
 
-Image Folder consists of Random 100- 200 images, if one wants to refer the original dataset and Image folder, then please refer to this link: https://www.kaggle.com/datasets/djagatiya/myntra-fashion-product-dataset
+Image Folder consists of Random 50-100 images, if one wants to refer the original dataset and Image folder, then please refer to this link: https://www.kaggle.com/datasets/djagatiya/myntra-fashion-product-dataset
 
 ## 🚀 System Architecture & Procedure
 The recommendation engine follows a sophisticated four-stage pipeline to bridge the gap between human language and visual fashion attributes.
