@@ -75,7 +75,6 @@ API Key: Create a .env file and add: GEMINI_API_KEY=your_google_ai_key.
 Run Ingestion: Execute the code in embeddings.ipynb to generate the fashion_vector_db folder.
 ```
 ### Launch App:
-Bash
 python -m streamlit run app.py
 
 ## 💡Key Challenges Solved
