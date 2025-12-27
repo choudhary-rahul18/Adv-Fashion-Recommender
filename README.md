@@ -51,6 +51,7 @@ Frontend: Streamlit (Responsive UI)
 Inference: PyTorch (MPS/CUDA support)
 
 ## 📦 Project Structure
+```
 Plaintext
 ├── data_analysis.ipynb      # EDA, feature engineering, and price scaling logic
 ├── embeddings.ipynb          # CLIP vector generation & ChromaDB ingestion
@@ -58,7 +59,7 @@ Plaintext
 ├── price_scaler.pkl          # Persisted MinMaxScaler for search alignment
 ├── .env                      # API Credentials (ignored by git)
 └── requirements.txt          # Project dependencies
-
+```
 
 ## ⚙️ Setup & Installation
 ```
