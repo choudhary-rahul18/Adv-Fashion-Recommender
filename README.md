@@ -74,15 +74,13 @@ API Key: Create a .env file and add: GEMINI_API_KEY=your_google_ai_key.
 
 Run Ingestion: Execute the code in embeddings.ipynb to generate the fashion_vector_db folder.
 ```
-
-## Launch App:
-```
+### Launch App:
 Bash
 python -m streamlit run app.py
-💡 Key Challenges Solved
+
+## 💡Key Challenges Solved
 Context Window Limits: Managed CLIP’s 77-token limit by implementing truncation and prompt constraints within the LLM expansion logic.
 
 Attribute Sparsity: Solved the issue of missing descriptions by engineering a "Semantic Proxy" string from available product attributes.
 
 Scale: Optimized the ingestion process into batches of 1000 to handle over 14,000 items efficiently.
-```
